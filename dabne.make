@@ -51,7 +51,9 @@ projects[] = masquerade
 
 ; Themes
 ; --------
-;projects[] = dabne
+projects[dabne][type] = "theme"
+projects[dabne][download][type] = "git"
+projects[dabne][download][url] = "https://github.com/bug273/dabne_theme.git"
 
 ; Libraries
 ; ---------

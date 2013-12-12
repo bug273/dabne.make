@@ -50,9 +50,20 @@ projects[] = masquerade
 
 
 ; Idioma
-projects[language][type] = "module"
-projects[language][download][type] = "file"
-projects[language][download][url] = "http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.es.po"
+;projects[language][type] = "module"
+;projects[language][download][type] = "file"
+;projects[language][download][url] = "http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.es.po"
+
+
+; Translations
+translations[] = es
+
+; Idioma
+projects[dabne][download][type] = "file"
+projects[dabne][download][url] = "http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.es.po"
+projects[dabne][download][l10n_path] = "profiles/standard/translations"
+projects[dabne][destination] = "profiles/standard/translations/"
+
 
 ; Themes
 ; --------

@@ -49,6 +49,11 @@ projects[] = lightbox2
 projects[] = masquerade
 
 
+; Idioma
+projects[language][type] = "module"
+projects[language][download][type] = "file"
+projects[language][download][url] = "http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.es.po"
+
 ; Themes
 ; --------
 projects[dabne][type] = "theme"

@@ -4,7 +4,7 @@
 core = 7.x
 api = 2
 projects[drupal][version] = 7.24
-translations[] = es
+;translations[] = es
 
 
 
@@ -58,7 +58,7 @@ projects[] = masquerade
 
 
 ; Translations
-translations[] = es
+;translations[] = es
 
 ; Idioma
 projects[dabne][download][type] = "file"
@@ -72,6 +72,7 @@ projects[dabne][destination] = "profiles/standard/translations/"
 projects[dabne][type] = "theme"
 projects[dabne][download][type] = "git"
 projects[dabne][download][url] = "https://github.com/bug273/dabne_theme.git"
+projects[dabne][destination] = "sites/all/themes"
 
 ; Libraries
 ; ---------
